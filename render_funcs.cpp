@@ -57,7 +57,7 @@ BOOL music_worker(const char* url)
 		std::cout << "bass.dll error code[1]: " << err << std::endl;
 	}
 	
-	// test
+	// effect params
 	BASS_BFX_ECHO bfx_echo_params;
 	
 	bfx_echo_params.fLevel = 1;
